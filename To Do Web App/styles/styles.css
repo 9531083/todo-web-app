@@ -1,0 +1,56 @@
+@import url(../../007/reset.css);
+body, input{
+    box-sizing: border-box;
+}
+body{
+    background-color: #3a3a3a;
+    font-family: Arial;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+#header{
+    background-image: url('../images/bg.jpg');
+    height: 300px;
+    background-position-y: center;
+}
+#header h1{
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 20px 0;
+    color: #fff;
+}
+#header h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #fff;
+}
+#header .text-input{
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2em;
+}
+#section .notes{
+    
+    border-radius: 3px;
+}
+#section li:first-child{
+    border-radius: 3px 3px 0 0;
+}
+#section li:last-child{
+    border: none;
+    border-radius: 0 0 3px 3px;
+}
+#section li{
+    padding: 20px 5px;
+    background-color: #dfdcdc;
+    border-bottom:1px solid #c52d2d;
+}
+#section .total{
+    padding: 15px 5px 100px 5px;
+    color: #fff;
+}
